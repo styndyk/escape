@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Lora, serif; /* Имя шрифта */
+    src:    url('../fonts/Lora-Regular/Lora-Regular.eot'); /* Путь к файлу со шрифтом */
+    src:    url('../fonts/Lora-Regular/Lora-Regular.eot?iefix') format('eot'),
+            url('../fonts/Lora-Regular/Lora-Regular.woff') format('woff'),
+            url('../fonts/Lora-Regular/Lora-Regular.otf') format('opentype'),
+            url('../fonts/Lora-Regular/Lora-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Oxygen, sans-serif;
+    src:    url('../fonts/Oxygen-Regular/oxygen-regular.woff') format('woff'),
+            url('../fonts/Oxygen-Regular/oxygen-regular.woff2') format('woff2')
+            url('../fonts/Oxygen-Regular/oxygen-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
