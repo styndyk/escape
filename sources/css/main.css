@@ -29,6 +29,8 @@ ul {
 
 /* END General Styles */
 
+/* Header Styles */
+
 .header {
     background-image: url("../img/header-background.jpg");
     background-repeat: no-repeat;
@@ -103,3 +105,35 @@ ul {
 .header__button:hover {
     font-size: 20px;
 }
+
+
+/* END Header Styles */
+
+/* Category  Styles */
+
+.category {
+    margin: 30px 0;
+}
+
+.category__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .categoty__item {
+
+} */
+
+.categoty__link {
+    color: #768088;
+    font-family: Lora, serif;
+    font-weight: normal;
+    line-height: 20px;
+    transition: all .3s;
+}
+
+.categoty__link:hover {
+    color: #DD783F;
+}
+
+/* END Category  Styles */
