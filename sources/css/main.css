@@ -175,6 +175,10 @@ h2.posts__heading {
     padding-bottom: 15px;
 }
 
+.posts__item:hover {
+    cursor: pointer;
+}
+
 .posts__item:nth-child(1) {
     background: url("../img/posts_item.jpg") center center no-repeat;
 }
@@ -254,6 +258,10 @@ h2.recent__posts__heading {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.recent__posts__item {
+    cursor: pointer;
 }
 
 .recent__posts__item__img {
@@ -373,6 +381,14 @@ h2.recent__posts__heading {
     border-radius: 0 3px 3px 0;
     background: rgba(255, 255, 255, 0.28);
     padding: 18px 44px;
+    transition: all .3s;
+}
+
+#footer__submit:hover {
+    cursor: pointer;
+    font-size: 15px;
+    background: #DD783F;
+    color: rgba(255, 255, 255, 0.28);
 }
 
 #footer__submit[value] {
