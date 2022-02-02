@@ -356,11 +356,11 @@ h2.recent__posts__heading {
     padding: 18px 0 18px 35px;
 }
 
-#footer__email[value] {
+#footer__email[placeholder] {
     color: #817F83;
 }
 
-#footer__email[value], #footer__submit[value] {
+#footer__email[placeholder], #footer__submit[value] {
     font-size: 12px;
     line-height: 14px;
     font-weight: normal;
