@@ -162,6 +162,12 @@ h2.posts__heading {
     width: calc(50% - 20px);
     min-height: 280px;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Розташування елементів в кінці блоку */
+    padding: 0 20px;
+    border-radius: 2px;
+    padding-bottom: 15px;
 }
 
 .posts__item:nth-child(1) {
@@ -171,4 +177,42 @@ h2.posts__heading {
 .posts__item:nth-child(2) {
     background: url("../img/posts_item2.jpg") center center no-repeat;
 }
+
+.posts__heading {
+    font-family: Lora, serif;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.posts__subheading {
+    font-weight: normal;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+.posts__item__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts__author {
+    display: flex;
+    align-items: center;
+}
+
+.posts__avatar {
+    margin-right: 10px;
+}
+
+.posts__author__name, .posts__item__date { /* Однакові стилі для обох блоків  */
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
 /* END Post Styles */
