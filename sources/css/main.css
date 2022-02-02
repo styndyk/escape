@@ -1,6 +1,5 @@
 /* General Styles */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +44,7 @@ ul {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
@@ -70,6 +70,7 @@ ul {
 
 .header__nav__link:hover {
     color: #DD783F;
+    text-decoration: underline;
 }
 
 
