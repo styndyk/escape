@@ -1,19 +1,26 @@
 @font-face {
-    font-family: Lora, serif; /* Имя шрифта */
-    src:    url('../fonts/Lora-Regular/Lora-Regular.eot'); /* Путь к файлу со шрифтом */
-    src:    url('../fonts/Lora-Regular/Lora-Regular.eot?iefix') format('eot'),
-            url('../fonts/Lora-Regular/Lora-Regular.woff') format('woff'),
-            url('../fonts/Lora-Regular/Lora-Regular.otf') format('opentype'),
-            url('../fonts/Lora-Regular/Lora-Regular.ttf') format('truetype');
+    font-family: "Lora"; /* Имя шрифта */
     font-style: normal;
     font-weight: normal;
+    src: url("../fonts/Lora-Regular/Lora-Regular.woff") format("woff"),
+        url("../fonts/Lora-Regular/Lora-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: Oxygen, sans-serif;
-    src:    url('../fonts/Oxygen-Regular/oxygen-regular.woff') format('woff'),
-            url('../fonts/Oxygen-Regular/oxygen-regular.woff2') format('woff2')
-            url('../fonts/Oxygen-Regular/oxygen-regular.ttf') format('truetype');
+    font-family: "Oxygen";
+    src:    url("../fonts/Oxygen-Regular/oxygen-regular.woff") format("woff"),
+            url("../fonts/Oxygen-Regular/oxygen-regular.woff2") format("woff2"),
+            url("../fonts/Oxygen-Regular/oxygen-regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff"),
+        url("../fonts/Roboto-Regular/Roboto-Regular.eot") format("eot"),
+        url("../fonts/Roboto-Regular/Roboto-Regular.otf") format("opentype"),
+        url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype");
 }
