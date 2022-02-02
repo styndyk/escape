@@ -1,5 +1,6 @@
 /* General Styles */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
 
 body {
     background-color: #fff;
-    font-family: Oxygen, sans-serif;
+    font-family: "Oxygen", sans-serif;
     font-size: 14px;
     overflow-x: hidden; /* Відключенния горизонтального скролу */
 }
@@ -47,7 +48,7 @@ ul {
 }
 
 .header__logo {
-    font-family: Lora, serif;
+    font-family: "Lora", serif;
     font-size: 26px;
 }
 
@@ -78,7 +79,7 @@ ul {
 }
 
 .header__content__title {
-    font-family: Lora, serif;
+    font-family: "Lora", serif;
     font-weight: normal;
     font-size: 50px;
     line-height: 51px;
@@ -127,7 +128,7 @@ ul {
 
 .categoty__link {
     color: #768088;
-    font-family: Lora, serif;
+    font-family: "Lora", serif;
     font-weight: normal;
     line-height: 20px;
     transition: all .3s;
@@ -146,7 +147,7 @@ ul {
 }
 
 h2.posts__heading {
-    font-family: Oxygen, sans-serif;
+    font-family: "Oxygen", sans-serif;
     font-weight: normal;
     text-align: center;
     padding: 60px 0 30px;
@@ -182,7 +183,7 @@ h2.posts__heading {
 }
 
 .posts__heading {
-    font-family: Lora, serif;
+    font-family: "Lora", serif;
     font-weight: normal;
     font-size: 27px;
     line-height: 30px;
@@ -228,7 +229,7 @@ h2.posts__heading {
 
 
 h2.recent__posts__heading {
-    font-family: Oxygen, sans-serif;
+    font-family: "Oxygen", sans-serif;
     font-weight: normal;
     text-align: center;
     padding: 60px 0 30px;
@@ -264,7 +265,7 @@ h2.recent__posts__heading {
 }
 
 .recent__posts__item__heading {
-    font-family: Lora, serif;
+    font-family: "Lora", serif;
     color: #101315;
     font-size: 16px;
     font-weight: normal;
@@ -313,3 +314,99 @@ h2.recent__posts__heading {
 
 
 /* END Recent__Posts Styles */
+
+/* Footer Styles */
+
+.footer {
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 380px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 225px;
+    margin-bottom: 80px;
+}
+
+.footer__title {
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.footer__form {
+    max-width: 500px;
+    display: flex; /* Додав для того, щоб забрати відсупи між <input> */
+}
+
+#footer__email {
+    border: none;
+    border-radius: 3px 0 0 3px;
+    min-width: 375px;
+    padding: 18px 0 18px 35px;
+}
+
+#footer__email[value] {
+    color: #817F83;
+}
+
+#footer__email[value], #footer__submit[value] {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+#footer__submit {
+    /* max-width: 125px; */
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background: rgba(255, 255, 255, 0.28);
+    padding: 18px 44px;
+}
+
+#footer__submit[value] {
+    color: #F8F8F8;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    font-family: "Lora", serif;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.footer__menu__item {
+    margin-right: 20px;
+}
+
+.footer__menu__link {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 26px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.footer__menu__link:hover {
+    color: #DD783F;
+}
+/* END Footer Styles */
