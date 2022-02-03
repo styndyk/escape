@@ -439,6 +439,16 @@ h2.recent__posts__heading::after {
     border-radius: 3px 0 0 3px;
     min-width: 375px;
     padding: 18px 0 18px 35px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+#footer__email:hover, #footer__email:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Створення тіні*/
+    background: rgb(252, 252, 252);
+}
+
+#footer__email:focus {
+    outline: none; /* Збираємо внутрішню рамку при фокусі поля */
 }
 
 #footer__email[placeholder] {
@@ -456,15 +466,14 @@ h2.recent__posts__heading::after {
     /* max-width: 125px; */
     border: none;
     border-radius: 0 3px 3px 0;
-    background: rgba(255, 255, 255, 0.28);
+    background: rgb(221, 120, 63);
     padding: 18px 44px;
     transition: all .3s;
 }
 
 #footer__submit:hover {
     cursor: pointer;
-    font-size: 15px;
-    background: #DD783F;
+    background: #b34a19;
     color: rgba(255, 255, 255, 0.28);
 }
 
