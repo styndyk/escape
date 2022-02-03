@@ -512,4 +512,23 @@ h2.recent__posts__heading::after {
 .footer__menu__link:hover {
     color: #DD783F;
 }
+
+.footer__menu__link::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    visibility: hidden;
+    background-color: #DD783F;
+    clear: both;
+    transition: all 0.3s ease-in;
+    transform: scaleX(0);
+}
+
+.footer__menu__link:hover::before {
+    visibility: visible;
+    transform: scaleX(1); /* При наведенні отримує значення 1 для плавного відкриття  */
+    transition: all 0.35s ease-out;
+}
+
 /* END Footer Styles */
