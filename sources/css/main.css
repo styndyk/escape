@@ -231,6 +231,16 @@ h2.posts__heading {
     margin-bottom: 5px;
 }
 
+.posts__heading::after {
+    content: "";
+    display: block;
+    max-width: 200px;
+    height: 1px;
+    background-color: #DEDEDE;
+    clear: both;
+    margin: 16px auto 0;
+}
+
 .posts__subheading {
     font-weight: normal;
     line-height: 25px;
@@ -278,6 +288,16 @@ h2.recent__posts__heading {
     line-height: 27px;
     letter-spacing: 2px;
     color: #2E2E2E;
+}
+
+h2.recent__posts__heading::after {
+    content: "";
+    display: block;
+    max-width: 200px;
+    height: 1px;
+    background-color: #DEDEDE;
+    clear: both;
+    margin: 16px auto 0;
 }
 
 .recent__posts__items {
