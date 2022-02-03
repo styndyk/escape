@@ -124,7 +124,7 @@ ul {
 }
 
 .header__button:hover {
-    font-size: 20px;
+    background-color: #b34a19;
 }
 
 
@@ -153,8 +153,26 @@ ul {
     transition: all .3s;
 }
 
+.categoty__link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    visibility: hidden;
+    background-color: #DD783F;
+    clear: both;
+    transition: all 0.2s ease-in;
+    transform: scaleX(0);
+}
+
 .categoty__link:hover {
     color: #DD783F;
+}
+
+.categoty__link:hover::after {
+    visibility: visible;
+    transform: scaleX(1); /* При наведенні отримує значення 1 для плавного відкриття  */
+    transition: all 0.35s ease-out; 
 }
 
 /* END Category  Styles */
