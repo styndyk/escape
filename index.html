@@ -73,32 +73,36 @@
                 Featured Posts
             </h2>
             <div class="posts__items">
-                <div class="posts__item">
-                    <h3 class="posts__heading">The Road Ahead</h3>
-                    <p class="posts__subheading">The road ahead might be paved - it might not be.</p>
-                    <div class="posts__item__bottom">
-                        <div class="posts__author">
-                            <img src="./sources/img/Mat_Vogels.png" alt="Mat Vogels" class="posts__avatar">
-                            <span class="posts__author__name">Mat Vogels</span>
+                <article class="posts__item"> <!-- Додав для <article> для більшої семантичності-->
+                    <a href="#" class="posts__item__link">
+                        <h3 class="posts__heading">The Road Ahead</h3>
+                        <p class="posts__subheading">The road ahead might be paved - it might not be.</p>
+                        <div class="posts__item__bottom">
+                            <div class="posts__author">
+                                <img src="./sources/img/Mat_Vogels.png" alt="Mat Vogels" class="posts__avatar">
+                                <span class="posts__author__name">Mat Vogels</span>
+                            </div>
+                            <time class="posts__item__date" datetime="2015-09-15">
+                                September 25, 2015
+                            </time>
                         </div>
-                        <time class="posts__item__date" datetime="2015-09-15">
-                            September 25, 2015
-                        </time>
-                    </div>
-                </div>
-                <div class="posts__item">
-                    <h3 class="posts__heading">From Top Down</h3>
-                    <p class="posts__subheading">Once a year, go someplace you’ve never been before.</p>
-                    <div class="posts__item__bottom"> 
-                        <div class="posts__author">
-                            <img src="./sources/img/William_Wong.png" alt="William Wong" class="posts__avatar">
-                            <span class="posts__author__name">William Wong</span>
+                    </a>
+                </article>
+                <article class="posts__item">
+                    <a href="#" class="posts__item__link">
+                        <h3 class="posts__heading">From Top Down</h3>
+                        <p class="posts__subheading">Once a year, go someplace you’ve never been before.</p>
+                        <div class="posts__item__bottom"> 
+                            <div class="posts__author">
+                                <img src="./sources/img/William_Wong.png" alt="William Wong" class="posts__avatar">
+                                <span class="posts__author__name">William Wong</span>
+                            </div>
+                            <time class="posts__item__date" datetime="2015-09-15">
+                                September 25, 2015
+                            </time>
                         </div>
-                        <time class="posts__item__date" datetime="2015-09-15">
-                            September 25, 2015
-                        </time>
-                    </div>   
-                </div>
+                    </a>   
+                </article>
             </div>
         </div>
     </section>

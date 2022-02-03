@@ -209,9 +209,11 @@ h2.posts__heading {
     padding: 0 20px;
     border-radius: 2px;
     padding-bottom: 15px;
+    transition: all .25s ease-in;
 }
 
 .posts__item:hover {
+    transform: scale(1.025);
     cursor: pointer;
 }
 
@@ -244,7 +246,7 @@ h2.posts__heading {
 .posts__subheading {
     font-weight: normal;
     line-height: 25px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
     margin-bottom: 12px;
 }
 
@@ -266,7 +268,7 @@ h2.posts__heading {
 .posts__author__name, .posts__item__date { /* Однакові стилі для обох блоків  */
     font-size: 12px;
     line-height: 35px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
 }
 
 /* END Post Styles */
