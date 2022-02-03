@@ -316,16 +316,29 @@ h2.recent__posts__heading::after {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-.recent__posts__item {
-    cursor: pointer;
+.recent__posts__item__landscape { /* контейнер для zoom hover ефекту */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.recent__posts__item:hover .recent__posts__item__img {
+    transform: scale(1.125);
+    transition: all .3s ease-out;
 }
 
 .recent__posts__item__img {
     max-width: 100%; /* Зображення на весь блок, щоб не вилазило за рамки */
     display: block;
+    transition: all .3s ease-in;
+    object-fit: scale-down;
 }
+
 
 .recent__posts__item__content {
     padding: 15px 10px 15px 15px;
@@ -346,7 +359,13 @@ h2.recent__posts__heading::after {
     line-height: 17px;
 }
 
-.recent__posts__item__bottom {
+.recent__posts__item:hover .recent__posts__item__heading,
+.recent__posts__item:hover .recent__posts__item__subheading { /* зміна контенту при наведенні на новину */
+    color: rgb(179, 74, 25);
+    transition: color .3s ease-out;
+}
+
+.recent__posts__item__meta {
     background-color: #FCFCFC;
     display: flex;
     justify-content: space-between;
