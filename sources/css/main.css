@@ -7,6 +7,11 @@
     color: #fff;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     font-size: 14px;
 }
@@ -14,7 +19,6 @@ html {
 body {
     background-color: #fff;
     font-family: "Oxygen", sans-serif;
-    overflow-x: hidden; /* Відключенния горизонтального скролу */
 }
 
 a {
