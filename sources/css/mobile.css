@@ -58,3 +58,33 @@ body {
     line-height: 1.3rem;
 }
 /* END Header Styles */
+
+/* Category Styles */
+
+.category {
+    margin: 2.075rem;
+}
+
+.category__list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categoty__item {
+    margin-right: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.noMarginBottom {
+    margin-bottom: 0;
+}
+
+.categoty__link {
+    font-size: 1.175rem;
+}
+
+.categoty__link::after {
+    height: 2px;
+}
+
+/* END Category Styles */
