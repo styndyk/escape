@@ -106,3 +106,39 @@ h2.posts__heading {
     margin-bottom: 1.275rem;
 }
 /* END Posts Styles */
+
+/* Recent Posts Styles */
+.recent__posts {
+padding-bottom: 2rem;
+}
+
+
+.recent__posts h2.recent__posts__heading {
+    padding: 2.45rem 0 2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.recent__posts__items {
+    flex-direction: column;
+}
+
+.recent__posts__item {
+    min-width: 100%;
+}
+
+.recent__posts__item__heading {
+    font-size: 1.475rem;
+} 
+
+.recent__posts__item__subheading {
+    font-size: 1rem;
+}
+
+.recent__posts__item__author__name,
+.recent__posts__item__date
+{
+    font-size: 0.9rem;
+}
+
+/* Recent Posts Styles */

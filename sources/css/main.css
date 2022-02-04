@@ -335,10 +335,10 @@ h2.recent__posts__heading::after {
 }
 
 .recent__posts__item__img {
-    max-width: 100%; /* Зображення на весь блок, щоб не вилазило за рамки */
+    min-width: 100%; /* Зображення на весь блок, щоб не вилазило за рамки */
     display: block;
     transition: all .3s ease-in;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 
