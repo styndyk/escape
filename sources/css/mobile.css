@@ -142,3 +142,49 @@ padding-bottom: 2rem;
 }
 
 /* Recent Posts Styles */
+
+/* Footer Styles */
+
+.footer {
+    min-height: 25rem;
+}
+
+.footer__content {
+    min-height: 12rem;
+    margin-bottom: 5rem;
+}
+
+.footer__title {
+    font-size: 1.775rem;
+    line-height: 2.075rem;
+    margin-top: 0.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer__form {
+    min-width: 100%;
+}
+
+#footer__email {
+    min-width: 70%;
+}
+
+#footer__submit {
+    min-width: 30%;
+    padding: auto;
+    padding: 0;
+}
+
+.footer__logo {
+    font-size: 1.25rem;;
+}
+
+.footer__menu__item{
+    margin-right: 0.9rem;
+}
+
+.footer__menu__link{
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+/* END Footer Styles */
