@@ -13,7 +13,7 @@ body {
 /* Header Styles */
 
 .header {
-    min-height: 80vh;
+    min-height: 75vh;
 }
 
 .header__top {
@@ -30,6 +30,31 @@ body {
 
 .header__nav__link {
     font-size: 0.7rem;
+    line-height: 1.2rem;
 }
 
+.header__nav__link::after {
+    height: 1px;
+}
+
+.header__content {
+    margin-top: 8.5rem;
+}
+
+.header__content__title {
+    font-size: 3.3rem;
+    line-height: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+.header__content__subtitle {
+    font-size: 1.175rem;
+    margin-bottom: 3.2rem;
+}
+
+.header__button {
+    padding: 1.075rem 2.4rem;
+    font-size: 1.275rem;
+    line-height: 1.3rem;
+}
 /* END Header Styles */
