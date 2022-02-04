@@ -7,10 +7,13 @@
     color: #fff;
 }
 
+html {
+    font-size: 14px;
+}
+
 body {
     background-color: #fff;
     font-family: "Oxygen", sans-serif;
-    font-size: 14px;
     overflow-x: hidden; /* Відключенния горизонтального скролу */
 }
 

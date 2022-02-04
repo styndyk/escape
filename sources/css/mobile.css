@@ -1,0 +1,35 @@
+/* General Styles */
+
+body {
+    font-size: 1rem;
+}
+
+.wrapper {
+    max-width: 360px;
+}
+
+/* END General Styles */
+
+/* Header Styles */
+
+.header {
+    min-height: 80vh;
+}
+
+.header__top {
+    padding-top: 1rem;
+}
+
+.header__logo {
+    font-size: 1.25rem;
+}
+
+.header__nav__item {
+    margin-right: 0.9rem;
+}
+
+.header__nav__link {
+    font-size: 0.7rem;
+}
+
+/* END Header Styles */
