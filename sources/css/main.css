@@ -199,7 +199,6 @@ h2.posts__heading {
 
 .posts__items {
     display: flex;
-    /* max-width: ; */
 }
 
 .posts__item {

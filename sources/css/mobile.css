@@ -8,6 +8,10 @@ body {
     max-width: 360px;
 }
 
+.noMarginBottom {
+    margin-bottom: 0 !important;
+}
+
 /* END General Styles */
 
 /* Header Styles */
@@ -75,10 +79,6 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.noMarginBottom {
-    margin-bottom: 0;
-}
-
 .categoty__link {
     font-size: 1.175rem;
 }
@@ -88,3 +88,21 @@ body {
 }
 
 /* END Category Styles */
+
+/* Post Styles */
+
+h2.posts__heading {
+    padding: 2.45rem 0 2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.posts__items {
+    flex-direction: column;
+}
+
+.posts__item {
+    width: 100%;
+    margin-bottom: 1.275rem;
+}
+/* END Posts Styles */
